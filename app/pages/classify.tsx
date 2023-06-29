@@ -68,11 +68,11 @@ const ClassifyPage: React.FC = () => {
           <div className="space-y-4">
             <div>
               <label className="text-sm font-medium text-black">Current Sugar:</label>
-              <input type="number" value={currentSugar} onChange={e => setCurrentSugar(e.target.value)} className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500 sm:text-sm" />
+              <input type="number" value={currentSugar} onChange={e => setCurrentSugar(e.target.value)} className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500 sm:text-sm text-black" />
             </div>
             <div>
               <label className="text-sm font-medium text-black">Weight:</label>
-              <input type="number" value={weight} onChange={e => setWeight(e.target.value)} className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500 sm:text-sm" />
+              <input type="number" value={weight} onChange={e => setWeight(e.target.value)} className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500 sm:text-sm text-black" />
             </div>
             <div>
               <label htmlFor="file-upload" className="cursor-pointer inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-cyan-400 hover:bg-cyan-200 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition duration-150 ease-in-out">
