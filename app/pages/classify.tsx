@@ -86,7 +86,7 @@ const ClassifyPage: React.FC = () => {
           {carbEstimation !== null && (
             carbEstimation > 0
               ? <p className="mt-4 text-sm text-gray-500">Carb Estimation: {carbEstimation}g</p>
-              : <p className="mt-4 text-sm text-gray-500">This food doesn't have carbs in the system.</p>
+              : <p className="mt-4 text-sm text-gray-500">This food doesn&apos;t have carbs in the system.</p>
           )}
           {insulin !== null && carbEstimation !== null && carbEstimation > 0 && <p className="mt-4 text-sm text-gray-500">Insulin: {insulin} units</p>}
         </div>
