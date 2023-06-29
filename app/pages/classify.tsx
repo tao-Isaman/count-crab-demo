@@ -67,11 +67,11 @@ const ClassifyPage: React.FC = () => {
           {/* <h1 className="text-2xl font-bold mb-4">CountCrab</h1> */}
           <div className="space-y-4">
             <div>
-              <label className="text-sm font-medium">Current Sugar:</label>
+              <label className="text-sm font-medium text-black">Current Sugar:</label>
               <input type="number" value={currentSugar} onChange={e => setCurrentSugar(e.target.value)} className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500 sm:text-sm" />
             </div>
             <div>
-              <label className="text-sm font-medium">Weight:</label>
+              <label className="text-sm font-medium text-black">Weight:</label>
               <input type="number" value={weight} onChange={e => setWeight(e.target.value)} className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500 sm:text-sm" />
             </div>
             <div>
